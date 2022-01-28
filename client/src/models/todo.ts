@@ -1,8 +1,8 @@
 class Todo{
     id: string;
     text: string;
-    constructor(id:string,text:string){
-        this.id=id;
+    constructor(text:string){
+        this.id=new Date().toString();
         this.text=text;
     }
 }
